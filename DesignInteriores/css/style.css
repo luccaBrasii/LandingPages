@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+header{
+    background-image: url("../assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.logo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.navbar{
+    font-family: 'nunito', sans-serif;
+    margin-top: 50px;
+}
+.navbar a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.navbar button{
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: lightgrey;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.secaoHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    
+}
+
+.secaoHeader h2{
+    font-family: 'Kanit', sans-serif;
+    color: #ffff;
+    font-size: 40px;
+}
+
+ .sobre{
+    background-color: #212828;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUs{
+    margin-top: 50px;
+}
+.sobreNos{
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: #6D7D7D;
+}
+
+.sobreUS{
+    width: 50%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.aboutUs h3{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.secaoUm{
+    height: 1000px;
+
+    background-color: #212828;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgSecaoUm{
+    margin-top: 20px;
+    margin-left: -195px;
+}
+
+.imgSecaoUm img{
+    width: 300px;
+    margin: 0 20px;
+}
+
+.imgSecaoUm img:last-child{
+    margin-top: -250px !important;
+}
